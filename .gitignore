@@ -1,0 +1,14 @@
+# Ignore everything by default in this monorepo-style ~/.config
+*
+
+# Keep git metadata and tracked dotfiles entries
+!.gitignore
+!.gitmodules
+!zshrc
+!p10k.zsh
+!kitty
+!nvim
+!powerlevel10k
+
+# Allow contents under tracked directories
+!kitty/**
